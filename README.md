@@ -2,13 +2,17 @@
 
 Welcome to a repository containing a Unity and Vuforia project in cooperation between DataTjej and Thnx Innovation for educational purposes.
 
+At the bottom of this walkthrough one will find links to resources for Unity and Vuforia, as well as a link to a goof Unity Youtube-chanel.
+
 ## Prerequisites
 
 To run this demo and develop with Unity and Vuforia using below instructions, Unity 2017.3 or later is needed, Vuforia 7 is included with the installer for Unity and should be installed when installing Unity.
 
+Also, an empty and newly created Unity project is the starting point of this walkthrough.
+
 ## Step-by-Step
 
-Below is a step-by-step walkthrough to set up an empty Unity project to use Vuforia and image tracking. Please follow DataTjej and ThnxInnovation on Facebook and LinkedIn for upcoming Unity workshops by Thnx!
+Below is a step-by-step walkthrough to setup Unity to use Vuforia and image tracking. Please follow [DataTjej](http://datatjej.se/) and [Thnx Innovation](http://www.thnx.se) on [Facebook](https://www.facebook.com/thnxinnovation/) and [LinkedIn](https://www.linkedin.com/company/15173156/) for upcoming Unity workshops by Thnx!
 
 ### The Begining
 
