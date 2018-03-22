@@ -1,0 +1,52 @@
+What we will do:
+- No coding for this
+- Set up a Vuforia account, upload target, and download vuforia-database
+- Create Unity project
+- Add Target to scene together with DataTjej logo
+- Run app on iOS device
+- If we get time, add animation to logo
+
+
+Pre:
+Unity 2017.3 includes Vuforia 7 when installing
+
+Step-by-step:
+1. Add ARCamera, import Vuforia package
+2. Ar Camera -> Open Vuforia configuration (Window -> Vuforia Configuration, Shift + cmd/ctrl + v)
+	- Set App License Key
+	- Under Databases, check only Load DataTjej Database and Activate
+2. Add ImageTarget, set Type to Predefined, Database to DataTjej and Image Target to datatjej-target
+3. Add transparent image (datatjej-logo-transp.png) to Project, inspector -> Texture Type, set to Sprite (2D and UI) and Apply
+4. Add sprite to ImageTarget, transform sprite scale (0.1, 0.1, 0.1)
+5. Open File -> Build Settings (cmd/ctrl + B)
+6. Go in to Player Settings (Edit -> Project Settings -> Player)
+7. Set Company Name
+8. Set Default Icon (datatjej-logo-transp)
+9. For iOS and Android
+	- In Otther Settings, set Package Name
+	- In XR Settings, check the box for Vuforia Augment Reality
+9. For Android:
+	- Set minimum API Level to 5.1 'Lollipop'
+9. For iOS:
+	- Set minimum API Level to 9.0
+	- Set Camera Usage Description: "Camera access required for target detection and tracking."
+10. Back in Build Settings, Switch Platform to prefered platform (iOS or Android)
+11. Connect device (Android or iOS), enabled development mode (might be different between devices)
+12. For Android, Build and Run, save apk with DataTjej-Android
+12. For iOS, Build, and save project with DataTjej-iOS
+13. For iOS, open built project found in DataTheh-iOS folder named Unity-iPhone.xcodeproj, add Signing Team, and hitt play
+
+Extended, Animation:
+1. Open Animation window (Window -> Animation cmd/ctrl + 6)
+2. Create new Animation, "rotate" (see inspector, Animator component created)
+3. Add Property, Transfor, Rotation
+4. Remvoe unnecessary keys for z- and x-axis
+6. Select the last Key at 1 sec, move to 2 sec, and set Rotation.y to 360
+7. Open Animator (Window -> Animator)
+8. iOS and Android Build and Run
+9. For iOS, "append"
+
+Other:
+Unity Trick to move rotated gameobjects, use empty gameobject
+Version controll: https://robots.thoughtbot.com/how-to-git-with-unity (Git)
+Source Tree and UNity: https://unity3d.com/learn/tutorials/topics/cloud-build/creating-your-first-source-control-repository (Source Tree)
