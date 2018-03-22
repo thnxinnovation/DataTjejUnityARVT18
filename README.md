@@ -10,6 +10,10 @@ To run this demo and develop with Unity and Vuforia using below instructions, Un
 
 Also, an empty and newly created Unity project is the starting point of this walkthrough.
 
+All Assets needed for the project is lokated in
+```
+./Assets/DataTjejDemo/
+```
 ## Step-by-Step
 
 Below is a step-by-step walkthrough to setup Unity to use Vuforia and image tracking. Please follow [DataTjej](http://datatjej.se/) and [Thnx Innovation](http://www.thnx.se) on [Facebook](https://www.facebook.com/thnxinnovation/) and [LinkedIn](https://www.linkedin.com/company/15173156/) for upcoming Unity workshops by Thnx!
